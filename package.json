@@ -1,7 +1,17 @@
 {
   "name": "poesia-ukr",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "compass": "^0.1.1",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mongoose": "^4.2.4",
+    "ncp": "^2.0.0",
+    "node-compass": "^0.2.4",
+    "path": "^0.12.7",
+    "pow-mongoose-fixtures": "^0.3.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.9.6",
     "gulp": "^3.9.0",
