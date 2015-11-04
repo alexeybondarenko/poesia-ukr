@@ -66,8 +66,14 @@ app.get('/add', function (req, res) {
 });
 
 var authorModel = require ('./server/models/Author');
-app.get('/api/author', function (req, res) {
-  authorModel.find({}).then(function (resp) {
+app.get('/api/authors', function (req, res) {
+  var query = {};
+  if (req.query.name) {
+    query = {
+      name: { "$regex": req.query.name, "$options": "ig" }
+    };
+  }
+  authorModel.find(query).then(function (resp) {
     res.json(resp.map(function (item) {
       return {
         id: item.id,
