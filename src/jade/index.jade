@@ -5,47 +5,30 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
     title Поезія України
     link(rel='stylesheet', href='css/app.css')
-  body.container-fluid.full-height.index
-    .row.border-between.full-height
-      .col-xs-2.full-height
-        .index__block
-          menu.nav
-            .nav__logo
-              a.logo Поезія.УКР
-            ul.nav__block
-              li
-                a Обрані
-              li
-                a Випадковий вірш
-      .col-xs-10.full-height
-        .index__content
-          div.block.typography
-            h2 "Страшні слова, коли вони мовчать..."
-            h5 Лiна Костенко
-            p Страшні  слова,  коли  вони  мовчать,
-              br
-              | Коли  вони  зненацька  причаїлись,
-              br
-              | Коли  не  знаєш,  з  чого  їх  почать,
-              br
-              | Бо  всі  слова  були  уже  чиїмись.
-            p
-              | Хтось  ними  плакав,  мучився,  болів,
-              br
-              | із  них  почав  і  ними  ж  і  завершив.
-              br
-              | Людей  мільярди,  і  мільярди  слів,
-              br
-              | а  ти  їх  маєш  вимовити  вперше!
-            p
-              | Все  повторялось:  і  краса,  й  потворність.
-              br
-              | Усе  було:  асфальти  й  спориші.
-              br
-              | Поезія  -  це  завжди  неповторність,
-              br
-              | якийсь  безсмертний  дотик  до  душі
-          p
-            a.highlight Наступний вірш
-                span.arrow →
+    link(rel='icon', type='image/png', href='images/favicon.png?v=123113')
+  body
+    .container-fluid.full-height-desktop.index
+      .row.border-between.full-height-desktop
+        .col-sm-3.col-md-2.full-height-desktop
+          .index__block
+            menu.nav
+              .nav__logo
+                a.logo.link Поезія.УКР
+              ul.nav__block
+                li
+                  a.link Обрані
+                li
+                  a.link Випадковий вірш
+            hr
+            .nav
+              ul.nav__block
+                li
+                  a
+                    b.link Додати вірш
+        .col-sm-9.col-md-10.full-height-desktop
+          .index__content
+            include ./partitials/add-poem
+            hr
+            include ./partitials/view-poem
+
     script(src='js/app.js')
