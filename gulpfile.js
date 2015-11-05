@@ -8,7 +8,8 @@ var gulp         = require('gulp'),
     compass      = require('gulp-compass'),
     autoprefixer = require('gulp-autoprefixer'),
     jade         = require('gulp-jade'),
-    ghPages      = require('gulp-gh-pages');
+    ghPages      = require('gulp-gh-pages'),
+    react = require('gulp-react');
 
 // Web Server
 gulp.task('server', function() {
@@ -53,6 +54,12 @@ gulp.task('build-styles', function() {
         .pipe(gulp.dest('./www/css'));
 });
 
+gulp.task('build-react', function () {
+  return gulp.src('./src/js/**/*.jsx')
+    .pipe(react())
+    .pipe(gulp.dest('./www/js'));
+});
+
 // SVG to SVG sprites
 gulp.task('copy-images', function() {
     return gulp.src(['./src/images/**/*', '!./src/images/icons/**/*'], {base: './src'})
@@ -67,7 +74,7 @@ gulp.task('copy-statics', function() {
 
 // Scripts
 gulp.task('copy-scripts', function() {
-    return gulp.src(['./src/js/**/*'], {base: './src'})
+    return gulp.src(['./src/js/**/*.js'], {base: './src'})
         .pipe(gulp.dest('./www'));
 });
 
@@ -88,7 +95,8 @@ gulp.task('build-jade', function() {
 gulp.task('watch', function() {
     gulp.watch('./src/css/**/*', ['build-styles']);
     gulp.watch('./src/images/**/*', ['copy-images', 'build-styles']);
-    gulp.watch('./src/js/**/*', ['copy-scripts']);
+    gulp.watch('./src/js/**/*.js', ['copy-scripts']);
+    gulp.watch('./src/js/**/*.jsx', ['build-react']);
     gulp.watch('./src/jade/**/*', ['build-jade']);
     gulp.watch('./src/bower_components/**/*.js', ['copy-bower']);
     gulp.watch('./src/static/**/*', ['copy-statics']);
@@ -107,4 +115,4 @@ gulp.task('deploy', ['deploy-prefix'], function() {
 
 // Base tasks
 gulp.task('default', sequence('build', ['server', 'watch']));
-gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles', 'build-jade']));
+gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles', 'build-react', 'build-jade']));

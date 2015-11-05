@@ -3,14 +3,18 @@
   "version": "0.0.0",
   "dependencies": {
     "bluebird": "^3.0.5",
+    "body-parser": "^1.14.1",
     "compass": "^0.1.1",
+    "errorhandler": "^1.4.2",
     "express": "^4.13.3",
     "jade": "^1.11.0",
     "mongoose": "^4.2.4",
+    "morgan": "^1.6.1",
     "ncp": "^2.0.0",
     "node-compass": "^0.2.4",
     "path": "^0.12.7",
-    "pow-mongoose-fixtures": "^0.3.0"
+    "pow-mongoose-fixtures": "^0.3.0",
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "browser-sync": "^2.9.6",
@@ -19,9 +23,10 @@
     "gulp-clean": "^0.3.1",
     "gulp-compass": "^2.1.0",
     "gulp-gh-pages": "^0.5.2",
+    "gulp-jade": "^1.1.0",
     "gulp-prefix": "0.0.14",
+    "gulp-react": "^3.1.0",
     "gulp-sequence": "^0.4.1",
-    "yargs": "^3.25.0",
-    "gulp-jade": "^1.1.0"
+    "yargs": "^3.25.0"
   }
 }

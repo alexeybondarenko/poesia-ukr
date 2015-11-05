@@ -1,16 +1,18 @@
 
-var express = require('express'),
-    path = require('path'),
-    mongoose = require('mongoose');
+var express = require('express');
+var path = require('path');
+var mongoose = require('mongoose');
+var favicon = require('serve-favicon');
+
+var bodyParser = require('body-parser');
+var errorHandler = require('errorhandler');
 
 mongoose.Promise = require('bluebird');
-
 
 /**
  * API keys
  */
 var secrets = require('./server/config/secrets');
-
 
 /**
  * Create Express server.
@@ -39,14 +41,17 @@ fixtures.load(__dirname + '/server/fixtures', mongoose.connection);
  * Express configuration.
  */
 app.set('port', process.env.PORT || 3000);
-app.use(express.static(path.join(__dirname, 'src/static'), { maxAge: 31557600000 }));
 app.use(express.static(path.join(__dirname, 'www'), { maxAge: 31557600000 }));
+
+app.use(favicon(path.join(__dirname, 'www/images', 'favicon.png')));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set('views', path.join(__dirname, 'src/jade'));
 app.set('view engine', 'jade');
 
 /**
- * Routes
+ * Views
  */
 
 app.get('/', function (req, res) {
@@ -65,6 +70,10 @@ app.get('/add', function (req, res) {
   });
 });
 
+/**
+ * API Authors
+ */
+
 var authorModel = require ('./server/models/Author');
 app.get('/api/authors', function (req, res) {
   var query = {};
@@ -82,6 +91,11 @@ app.get('/api/authors', function (req, res) {
     }));
   });
 });
+
+/**
+ * Error Handler.
+ */
+app.use(errorHandler());
 
 /**
  * Start Express server.
