@@ -115,4 +115,4 @@ gulp.task('deploy', ['deploy-prefix'], function() {
 
 // Base tasks
 gulp.task('default', sequence('build', ['server', 'watch']));
-gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles', 'build-react', 'build-jade']));
+gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles']));

@@ -1,8 +1,11 @@
+'use strict';
 
 var express = require('express');
 var path = require('path');
 var mongoose = require('mongoose');
 var favicon = require('serve-favicon');
+
+var Boom = require('boom');
 
 var bodyParser = require('body-parser');
 var errorHandler = require('errorhandler');
@@ -55,15 +58,11 @@ app.set('view engine', 'jade');
  */
 
 app.get('/', function (req, res) {
-  res.render('view', {
+  res.render('index', {
     title: 'Головна'
-  });
-});
-app.get('/poem/:poemId', function (req, res) {
-  res.render('view', {
-    title: 'Назва'
   })
 });
+
 app.get('/add', function (req, res) {
   res.render('add', {
     title: 'Додати'
@@ -91,6 +90,17 @@ app.get('/api/authors', function (req, res) {
     }));
   });
 });
+
+var poemController = require ('./server/controllers/poem-controller');
+
+app.get('/random', poemController.getRandomPoem);
+
+app.get('/poem', poemController.getPoems);
+app.get('/poem/:id', poemController.getPoemById);
+
+app.get('/api/poems', poemController.api.getPoems);
+app.get('/api/poems/:id', poemController.api.getPoemById);
+
 
 /**
  * Error Handler.
