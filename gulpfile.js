@@ -113,6 +113,21 @@ gulp.task('deploy', ['deploy-prefix'], function() {
     .pipe(ghPages());
 });
 
+
+gulp.task('dist-public', function () {
+  gulp.src(['./www/**/*','./src/{jade,asdasd}/**/*'])
+    .pipe(gulp.dest('./dist/public'));
+});
+gulp.task('dist-server', function () {
+  gulp.src(['./server/**/*'])
+    .pipe(gulp.dest('./dist/server'));
+});
+gulp.task('dist-other', function () {
+  gulp.src(['app.js','package.json'])
+    .pipe(gulp.dest('./dist'));
+});
 // Base tasks
 gulp.task('default', sequence('build', ['server', 'watch']));
 gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles']));
+
+gulp.task('dist', sequence('build', ['dist-public', 'dist-server','dist-other']));
