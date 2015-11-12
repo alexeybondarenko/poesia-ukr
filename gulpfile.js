@@ -9,6 +9,7 @@ var gulp         = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     jade         = require('gulp-jade'),
     ghPages      = require('gulp-gh-pages'),
+    deploy = require('gulp-deploy-git'),
     react = require('gulp-react');
 
 // Web Server
@@ -126,6 +127,14 @@ gulp.task('dist-other', function () {
   gulp.src(['app.js','package.json'])
     .pipe(gulp.dest('./dist'));
 });
+gulp.task('deploy', function() {
+  return gulp.src('dist/**/*')
+    .pipe(deploy({
+      repository: 'https://github.com/alexeybondarenko/poesia-ukr.git',
+      remoteBranch: 'production'
+    }));
+});
+
 // Base tasks
 gulp.task('default', sequence('build', ['server', 'watch']));
 gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles']));
