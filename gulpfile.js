@@ -107,3 +107,6 @@ gulp.task('deploy-production', function() {
 // Base tasks
 gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'copy-jade', 'build-styles']));
 gulp.task('default', sequence('build', ['watch']));
+
+
+gulp.task('production', sequence('build','deploy-production'));

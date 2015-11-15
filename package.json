@@ -19,7 +19,8 @@
     "node-compass": "^0.2.4",
     "path": "^0.12.7",
     "pow-mongoose-fixtures": "^0.3.0",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "striptags": "^2.0.4"
   },
   "devDependencies": {
     "browser-sync": "^2.9.6",
