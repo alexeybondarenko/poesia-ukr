@@ -129,9 +129,8 @@ gulp.task('dist-other', function () {
 });
 gulp.task('deploy', function() {
   return gulp.src('dist/**/*')
-    .pipe(deploy({
-      repository: 'https://github.com/alexeybondarenko/poesia-ukr.git',
-      remoteBranch: 'production'
+    .pipe(ghPages({
+      branch: 'production'
     }));
 });
 
