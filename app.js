@@ -44,13 +44,13 @@ fixtures.load(__dirname + '/server/fixtures', mongoose.connection);
  * Express configuration.
  */
 app.set('port', process.env.PORT || 3000);
-app.use(express.static(path.join(__dirname, 'www'), { maxAge: 31557600000 }));
+app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }));
 
-app.use(favicon(path.join(__dirname, 'www/images', 'favicon.png')));
+app.use(favicon(path.join(__dirname, 'public/images', 'favicon.png')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.set('views', path.join(__dirname, 'src/jade'));
+app.set('views', path.join(__dirname, 'public/jade'));
 app.set('view engine', 'jade');
 
 /**
