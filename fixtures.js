@@ -20,3 +20,5 @@ mongoose.connection.on('error', function() {
 
 //Directories (loads all files in the directory)
 fixtures.load(__dirname + '/server/fixtures', mongoose.connection);
+
+process.exit();
