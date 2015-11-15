@@ -86,9 +86,6 @@ gulp.task('copy-jade', function() {
     .pipe(gulp.dest('./public'));
 });
 
-
-
-
 // Watch for for changes
 gulp.task('watch', function() {
     gulp.watch('./src/css/**/*', ['build-styles']);
@@ -100,34 +97,10 @@ gulp.task('watch', function() {
     gulp.watch('./src/static/**/*', ['copy-statics']);
 });
 
-// Deploy gh-pages
-gulp.task('deploy-prefix', function() {
-  return gulp.src('./www/**/*.html')
-    .pipe(gulp.dest('./public'));
-});
-
-gulp.task('deploy', ['deploy-prefix'], function() {
-  return gulp.src('./public/**/*')
-    .pipe(ghPages());
-});
-
-
-gulp.task('dist-public', function () {
-  gulp.src(['./www/**/*','./src/{jade,asdasd}/**/*'])
-    .pipe(gulp.dest('./dist/public'));
-});
-gulp.task('dist-server', function () {
-  gulp.src(['./server/**/*'])
-    .pipe(gulp.dest('./dist/server'));
-});
-gulp.task('dist-other', function () {
-  gulp.src(['app.js','package.json'])
-    .pipe(gulp.dest('./dist'));
-});
-gulp.task('deploy', function() {
-  return gulp.src('dist/**/*')
+gulp.task('deploy-production', function() {
+  return gulp.src(['server/**/*','public/**/*','app.js','package.json'], {base: './'})
     .pipe(ghPages({
-      branch: 'production'
+      branch: 'text-production'
     }));
 });
 
