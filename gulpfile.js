@@ -35,14 +35,14 @@ gulp.task('clean', function () {
 
 // SASS to CSS
 gulp.task('build-styles', function() {
-    return gulp.src('./src/css/**/*.{sass,scss}')
+    return gulp.src('./src/sass/**/*.{sass,scss}')
         .pipe(compass({
             project: path.join(__dirname, ''),
             http_images_path: '/images',
             generated_images_path: 'www/images',
             http_path: '/',
             css: 'www/css',
-            sass: 'src/css',
+            sass: 'src/sass',
             image: 'src/images',
             debug: !argv.production,
             relative: true,
@@ -135,8 +135,9 @@ gulp.task('deploy', function() {
 });
 
 // Base tasks
-gulp.task('default', sequence('build', ['server', 'watch']));
 gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles']));
+
+gulp.task('default', sequence('build-dev', ['server', 'watch']));
 
 gulp.task('dist', sequence('build', ['dist-public', 'dist-server','dist-other']));
 gulp.task('deploy-dist', sequence('dist','deploy'));

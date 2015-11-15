@@ -4,3 +4,6 @@ node_modules
 www
 *.log
 dist
+
+# sprite images from compass
+**/icons-*.png
