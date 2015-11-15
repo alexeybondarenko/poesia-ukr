@@ -88,7 +88,7 @@ gulp.task('copy-jade', function() {
 
 // Watch for for changes
 gulp.task('watch', function() {
-    gulp.watch('./src/css/**/*', ['build-styles']);
+    gulp.watch('./src/sass/**/*', ['build-styles']);
     gulp.watch('./src/images/**/*', ['copy-images', 'build-styles']);
     gulp.watch('./src/js/**/*.js', ['copy-scripts']);
     gulp.watch('./src/js/**/*.jsx', ['build-react']);
