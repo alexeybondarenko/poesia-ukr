@@ -1,4 +1,6 @@
 
+var striptags = require('striptags');
+
 var poemCollection = require ('../collections/poem-collection');
 var secrets = require ('../config/secrets');
 
@@ -23,7 +25,10 @@ poemController.getPoems = function (req, res) {
 function renderPoemView (res, poem) {
   res.render('view', {
     title: poem.name,
-    poem: poem
+    poem: poem,
+    ogTitle: poem.author.name +' - '+ poem.name,
+    ogType: 'article',
+    ogDescription: striptags(poem.content || '').substr(0, 255)
   })
 }
 

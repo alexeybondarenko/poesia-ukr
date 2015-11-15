@@ -6,6 +6,7 @@ html
     title #{title} | Поезія України
     link(rel='stylesheet', href='/css/app.css')
     link(rel='icon', type='image/png', href='/images/favicon.png?v=123213')
+    include ./partitials/fb
   body
     .container-fluid.full-height-desktop.index
       .row.border-between.full-height-desktop
@@ -15,3 +16,20 @@ html
         .col-sm-9.col-md-10.full-height-desktop
           .index__content#content
             block content
+    include partitials/test.html
+    script.
+      window.fbAsyncInit = function() {
+        FB.init({
+        appId      : '945419322216906',
+        xfbml      : true,
+        version    : 'v2.5'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
