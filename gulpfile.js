@@ -100,7 +100,7 @@ gulp.task('watch', function() {
 gulp.task('deploy-production', function() {
   return gulp.src(['server/**/*','public/**/*','app.js','package.json'], {base: './'})
     .pipe(ghPages({
-      branch: 'text-production'
+      branch: 'production'
     }));
 });
 
