@@ -44,14 +44,33 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views', path.join(__dirname, 'public/jade'));
 app.set('view engine', 'jade');
 
+
+/**
+ * App Locals
+ * Default values for template variables
+ */
+app.locals.title = "Поезія Укрїни";
+
+app.locals.ogUrl = new Date();
+app.locals.ogType = null;
+app.locals.ogTitle = null;
+app.locals.ogLocale = 'uk_UA';
+app.locals.ogSitename = app.locals.title;
+app.locals.ogDescription = null;
+app.locals.ogImage = null;
+app.locals.fbAppId = secrets.fb.appId;
+
+app.use(function (req, res, next) {
+
+  res.locals.ogUrl = req.protocol + '://' + req.get('host') + req.url;
+  next();
+});
 /**
  * Views
  */
 
 app.get('/', function (req, res) {
-  res.render('index', {
-    title: 'Головна'
-  })
+  res.render('index')
 });
 //
 //app.get('/add', function (req, res) {

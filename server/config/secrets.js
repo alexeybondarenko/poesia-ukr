@@ -24,6 +24,9 @@ module.exports = {
   support: {
     email: process.env.SUPPORT_EMAIL || 'support@example.com'
   },
-  db: process.env.MONGODB || process.env.MONGOLAB_URI || 'mongodb://localhost:27017/poesia'
+  db: process.env.MONGODB || process.env.MONGOLAB_URI || 'mongodb://localhost:27017/poesia',
+  fb: {
+    appId: '945419322216906'
+  }
 
 };
