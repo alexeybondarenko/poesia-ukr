@@ -31,15 +31,6 @@ mongoose.connection.on('error', function() {
   process.exit(1);
 });
 
-var fixtures = require('pow-mongoose-fixtures');
-/**
- * Fixtures
- */
-
-//Directories (loads all files in the directory)
-fixtures.load(__dirname + '/server/fixtures', mongoose.connection);
-
-
 /**
  * Express configuration.
  */
@@ -62,12 +53,12 @@ app.get('/', function (req, res) {
     title: 'Головна'
   })
 });
-
-app.get('/add', function (req, res) {
-  res.render('add', {
-    title: 'Додати'
-  });
-});
+//
+//app.get('/add', function (req, res) {
+//  res.render('add', {
+//    title: 'Додати'
+//  });
+//});
 
 /**
  * API Authors
