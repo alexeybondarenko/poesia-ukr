@@ -29,7 +29,7 @@ gulp.task('server', function() {
 
 // Clean temporary folders
 gulp.task('clean', function () {
-    return gulp.src(['./www', './.sass-cache'], {read: false})
+    return gulp.src(['./public', './.sass-cache'], {read: false})
         .pipe(clean());
 });
 
@@ -39,9 +39,9 @@ gulp.task('build-styles', function() {
         .pipe(compass({
             project: path.join(__dirname, ''),
             http_images_path: '/images',
-            generated_images_path: 'www/images',
+            generated_images_path: 'public/images',
             http_path: '/',
-            css: 'www/css',
+            css: 'public/css',
             sass: 'src/sass',
             image: 'src/images',
             debug: !argv.production,
@@ -52,45 +52,42 @@ gulp.task('build-styles', function() {
             browsers: ['last 4 versions', 'ie 8'],
             cascade: false
         }))
-        .pipe(gulp.dest('./www/css'));
+        .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('build-react', function () {
-  return gulp.src('./src/js/**/*.jsx')
-    .pipe(react())
-    .pipe(gulp.dest('./www/js'));
-});
 
 // SVG to SVG sprites
 gulp.task('copy-images', function() {
     return gulp.src(['./src/images/**/*', '!./src/images/icons/**/*'], {base: './src'})
-        .pipe(gulp.dest('./www'));
+        .pipe(gulp.dest('./public'));
 });
 
 // Static files
 gulp.task('copy-statics', function() {
     return gulp.src(['./src/static/**/*'], {base: './src/static'})
-        .pipe(gulp.dest('./www'));
+        .pipe(gulp.dest('./public'));
 });
 
 // Scripts
 gulp.task('copy-scripts', function() {
     return gulp.src(['./src/js/**/*.js'], {base: './src'})
-        .pipe(gulp.dest('./www'));
+        .pipe(gulp.dest('./public'));
 });
 
 // Bower
 gulp.task('copy-bower', function() {
     return gulp.src(['./src/bower_components/**/*'], {base: './src'})
-        .pipe(gulp.dest('./www'));
+        .pipe(gulp.dest('./public'));
 });
 
-// Jade to HTML
-gulp.task('build-jade', function() {
-  return gulp.src('src/jade/*.jade')
-    .pipe(jade({pretty: true}))
-    .pipe(gulp.dest('www'));
+// Jade
+gulp.task('copy-jade', function() {
+  return gulp.src(['./src/jade/**/*'], {base: './src'})
+    .pipe(gulp.dest('./public'));
 });
+
+
+
 
 // Watch for for changes
 gulp.task('watch', function() {
@@ -98,7 +95,7 @@ gulp.task('watch', function() {
     gulp.watch('./src/images/**/*', ['copy-images', 'build-styles']);
     gulp.watch('./src/js/**/*.js', ['copy-scripts']);
     gulp.watch('./src/js/**/*.jsx', ['build-react']);
-    gulp.watch('./src/jade/**/*', ['build-jade']);
+    gulp.watch('./src/jade/**/*', ['copy-jade']);
     gulp.watch('./src/bower_components/**/*.js', ['copy-bower']);
     gulp.watch('./src/static/**/*', ['copy-statics']);
 });
@@ -106,11 +103,11 @@ gulp.task('watch', function() {
 // Deploy gh-pages
 gulp.task('deploy-prefix', function() {
   return gulp.src('./www/**/*.html')
-    .pipe(gulp.dest('./www'));
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('deploy', ['deploy-prefix'], function() {
-  return gulp.src('./www/**/*')
+  return gulp.src('./public/**/*')
     .pipe(ghPages());
 });
 
@@ -135,9 +132,9 @@ gulp.task('deploy', function() {
 });
 
 // Base tasks
-gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles']));
-
-gulp.task('default', sequence('build-dev', ['server', 'watch']));
+gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'copy-jade', 'build-styles']));
+gulp.task('build-public', sequence('build'));
+//gulp.task('default', sequence('build-dev', ['watch']));
 
 gulp.task('dist', sequence('build', ['dist-public', 'dist-server','dist-other']));
 gulp.task('deploy-dist', sequence('dist','deploy'));
