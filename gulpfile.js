@@ -140,3 +140,4 @@ gulp.task('default', sequence('build', ['server', 'watch']));
 gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'build-styles']));
 
 gulp.task('dist', sequence('build', ['dist-public', 'dist-server','dist-other']));
+gulp.task('deploy-dist', sequence('dist','deploy'));
