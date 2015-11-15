@@ -1,0 +1,11 @@
+extends ./layout
+
+block content
+  div.block
+    .typography
+      h2=poem.name
+      h5=poem.author.name
+      | !{poem.content}
+    p
+      a.highlight(href="/random") Наступний вірш
+        span.arrow →

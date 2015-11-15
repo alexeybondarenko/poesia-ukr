@@ -1,0 +1,9 @@
+extends ./layout
+
+block content
+  div.block
+    .list
+      each val in poems
+        a.list-item(href="/poem/#{val.id}")
+          | #{val.author.name}
+          |  - #{val.name}
