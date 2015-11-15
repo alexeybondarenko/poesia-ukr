@@ -106,8 +106,7 @@ gulp.task('deploy-production', function() {
 
 // Base tasks
 gulp.task('build', sequence('clean', ['copy-bower','copy-images','copy-statics', 'copy-scripts', 'copy-jade', 'build-styles']));
-gulp.task('build-public', sequence('build'));
-//gulp.task('default', sequence('build-dev', ['watch']));
+gulp.task('default', sequence('build', ['watch']));
 
 gulp.task('dist', sequence('build', ['dist-public', 'dist-server','dist-other']));
 gulp.task('deploy-dist', sequence('dist','deploy'));
