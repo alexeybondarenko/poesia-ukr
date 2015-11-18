@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Lora&subset=latin,cyrillic);
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\000036}}
 html {
   font-size: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\000031}}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
 h6, p, blockquote, pre, a, abbr, acronym, address, big,
 cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
@@ -19,945 +19,945 @@ output, ruby, section, summary, time, mark, audio, video {
   vertical-align: baseline;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000316}}
 img, fieldset, a img {
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000319}}
 input[type="submit"],
 button {
   cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000322}}
   input[type="submit"]::-moz-focus-inner,
   button::-moz-focus-inner {
     padding: 0;
     border: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000326}}
 textarea, input {
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000329}}
 textarea {
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000332}}
 input, button {
   margin: 0;
   padding: 0;
   border: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000337}}
 div, input, textarea, select, button,
 h1, h2, h3, h4, h5, h6, a, span, a:focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000341}}
 ul, ol {
   list-style-type: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000348}}
 table {
   border-spacing: 0;
   border-collapse: collapse;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_reset\.sass}line{font-family:\0000353}}
 a {
   text-decoration: none;
   color: inherit; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_mixins\.sass}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_mixins\.sass}line{font-family:\00003342}}
   .container:after {
     content: "";
     display: table;
     clear: both; }
   @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
     .container {
       width: 750px; } }
   @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
     .container {
       width: 970px; } }
   @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000315}}
     .container {
       width: 1170px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000335}}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_mixins\.sass}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_mixins\.sass}line{font-family:\00003342}}
   .container-fluid:after {
     content: "";
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000344}}
 .row {
   margin-left: -10px;
   margin-right: -10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/lib\/_mixins\.sass}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/lib\/_mixins\.sass}line{font-family:\00003342}}
   .row:after {
     content: "";
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000311}}
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-1 {
   width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-2 {
   width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-3 {
   width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-4 {
   width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-5 {
   width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-6 {
   width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-7 {
   width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-8 {
   width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-9 {
   width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-10 {
   width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-11 {
   width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
 .col-xs-12 {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
 .col-xs-pull-0 {
   right: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-1 {
   right: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-2 {
   right: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-3 {
   right: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-4 {
   right: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-5 {
   right: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-6 {
   right: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-7 {
   right: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-8 {
   right: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-9 {
   right: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-10 {
   right: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-11 {
   right: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
 .col-xs-pull-12 {
   right: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
 .col-xs-push-0 {
   left: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-1 {
   left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-2 {
   left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-3 {
   left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-4 {
   left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-5 {
   left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-6 {
   left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-7 {
   left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-8 {
   left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-9 {
   left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-10 {
   left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-11 {
   left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
 .col-xs-push-12 {
   left: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-0 {
   margin-left: 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-1 {
   margin-left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-2 {
   margin-left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-3 {
   margin-left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-4 {
   margin-left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-5 {
   margin-left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-6 {
   margin-left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-7 {
   margin-left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-8 {
   margin-left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-9 {
   margin-left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-10 {
   margin-left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-11 {
   margin-left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
 .col-xs-offset-12 {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-1 {
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-2 {
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-3 {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-4 {
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-5 {
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-6 {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-7 {
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-8 {
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-9 {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-10 {
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-11 {
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-sm-12 {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
   .col-sm-pull-0 {
     right: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-1 {
     right: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-2 {
     right: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-3 {
     right: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-4 {
     right: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-5 {
     right: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-6 {
     right: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-7 {
     right: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-8 {
     right: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-9 {
     right: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-10 {
     right: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-11 {
     right: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-sm-pull-12 {
     right: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
   .col-sm-push-0 {
     left: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-1 {
     left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-2 {
     left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-3 {
     left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-4 {
     left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-5 {
     left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-6 {
     left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-7 {
     left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-8 {
     left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-9 {
     left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-10 {
     left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-11 {
     left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-sm-push-12 {
     left: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-0 {
     margin-left: 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-1 {
     margin-left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-2 {
     margin-left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-3 {
     margin-left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-4 {
     margin-left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-5 {
     margin-left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-6 {
     margin-left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-7 {
     margin-left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-8 {
     margin-left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-9 {
     margin-left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-10 {
     margin-left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-11 {
     margin-left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-1 {
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-2 {
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-3 {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-4 {
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-5 {
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-6 {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-7 {
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-8 {
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-9 {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-10 {
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-11 {
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-md-12 {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
   .col-md-pull-0 {
     right: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-1 {
     right: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-2 {
     right: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-3 {
     right: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-4 {
     right: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-5 {
     right: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-6 {
     right: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-7 {
     right: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-8 {
     right: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-9 {
     right: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-10 {
     right: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-11 {
     right: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-md-pull-12 {
     right: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
   .col-md-push-0 {
     left: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-1 {
     left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-2 {
     left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-3 {
     left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-4 {
     left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-5 {
     left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-6 {
     left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-7 {
     left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-8 {
     left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-9 {
     left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-10 {
     left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-11 {
     left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-md-push-12 {
     left: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-0 {
     margin-left: 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-1 {
     margin-left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-2 {
     margin-left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-3 {
     margin-left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-4 {
     margin-left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-5 {
     margin-left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-6 {
     margin-left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-7 {
     margin-left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-8 {
     margin-left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-9 {
     margin-left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-10 {
     margin-left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-11 {
     margin-left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000332}}
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-1 {
     width: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-2 {
     width: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-3 {
     width: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-4 {
     width: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-5 {
     width: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-6 {
     width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-7 {
     width: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-8 {
     width: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-9 {
     width: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-10 {
     width: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-11 {
     width: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000340}}
   .col-lg-12 {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000360}}
   .col-lg-pull-0 {
     right: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-1 {
     right: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-2 {
     right: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-3 {
     right: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-4 {
     right: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-5 {
     right: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-6 {
     right: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-7 {
     right: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-8 {
     right: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-9 {
     right: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-10 {
     right: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-11 {
     right: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000355}}
   .col-lg-pull-12 {
     right: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000350}}
   .col-lg-push-0 {
     left: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-1 {
     left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-2 {
     left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-3 {
     left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-4 {
     left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-5 {
     left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-6 {
     left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-7 {
     left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-8 {
     left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-9 {
     left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-10 {
     left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-11 {
     left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000345}}
   .col-lg-push-12 {
     left: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-0 {
     margin-left: 0%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-1 {
     margin-left: 8.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-2 {
     margin-left: 16.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-3 {
     margin-left: 25%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-4 {
     margin-left: 33.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-5 {
     margin-left: 41.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-6 {
     margin-left: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-7 {
     margin-left: 58.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-8 {
     margin-left: 66.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-9 {
     margin-left: 75%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-10 {
     margin-left: 83.33333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-11 {
     margin-left: 91.66667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid-framework\.scss}line{font-family:\0000365}}
   .col-lg-offset-12 {
     margin-left: 100%; } }
 /* centered columns styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000392}}
 .row-centered {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\0000395}}
 .col-centered {
   display: inline-block;
   float: none !important;
@@ -965,96 +965,96 @@ a {
   text-align: left;
   /* inline-block space fix */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\00003103}}
 .col-fixed {
   /* custom width */
   width: 320px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\00003107}}
 .col-min {
   /* custom min width */
   min-width: 320px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/grid\/_grid\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/grid\/_grid\.scss}line{font-family:\00003111}}
 .col-max {
   /* custom max width */
   max-width: 320px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\000032}}
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre, blockquote, table, hr {
   margin-top: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\000037}}
 .typography, .typography input, .typography button, .typography textarea {
   font: 200 100%/1.4 Garamond, "Lora", Georgia, Times, serif; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000310}}
 .typography h1 {
   font-size: 2em;
   font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000313}}
 .typography h2 {
   font-size: 1.4em;
   font-weight: 300;
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000317}}
 .typography h3 {
   font-size: 1.3em;
   font-weight: 700; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000320}}
 .typography h1, .typography h2, .typography h3 {
   letter-spacing: -0.02em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000322}}
 .typography h4 {
   font-size: 1.1em;
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000325}}
 .typography h5 {
   font-size: 1.1em;
   font-weight: 700; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000328}}
 .typography h6 {
   font-size: 1em;
   font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000331}}
 .typography p, .typography button, .typography input, .typography textarea {
   font-size: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000333}}
 .typography ul, .typography ol {
   margin-left: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000335}}
 .typography ul {
   list-style: inherit; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000337}}
 .typography ol {
   list-style: decimal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000339}}
 .typography small {
   font-size: 0.9em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000341}}
 .typography dt {
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000344}}
 .typography th {
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000347}}
 .typography pre {
   white-space: pre-line; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000350}}
 .typography abbr, .typography acronym {
   border-bottom: 0.1em dotted;
   cursor: help; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000354}}
 .typography blockquote, .typography q {
   quotes: "“" "”" "‘" "’"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000356}}
 .typography blockquote {
   font-style: italic;
   margin-top: 2em;
   margin-bottom: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000362}}
   .typography blockquote:before, .typography blockquote:after {
     color: #ccc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000364}}
   .typography blockquote:before {
     content: open-quote;
     font-size: 4em;
@@ -1062,74 +1062,74 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre, blockquote, table, hr {
     margin-right: 0.25em;
     vertical-align: -0.4em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000370}}
 a {
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000373}}
 .arrow {
   font-size: 0.8em;
   padding-left: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/_typography\.sass}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/_typography\.sass}line{font-family:\0000376}}
 .small, small {
   font-size: 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000313}}
 html, body {
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000316}}
 .link:hover {
   border-bottom: 1px solid #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000323}}
 .full-height {
   height: 100%; }
 
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000325}}
   .full-height-desktop {
     height: 100%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000328}}
 [class*="col-"] {
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000331}}
 body, input, button, textarea {
   font: 200 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000338}}
 .border-between > [class*='col-']:nth-child(2n) {
   border-color: #e3e3e3;
   border-style: solid;
   border-width: 1px 0 0 0; }
   @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000338}}
     .border-between > [class*='col-']:nth-child(2n) {
       border-width: 0 0 0 1px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000347}}
 .icon {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000351}}
 .index .index__block, .index .index__content {
   padding-bottom: 20px; }
   @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000351}}
     .index .index__block, .index .index__content {
       position: relative;
       top: 25%; } }
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000357}}
   .index .index__content {
     margin-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000361}}
     .index .index__content > hr {
       margin-left: -2em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000364}}
 .index hr {
   border-width: 1px 0 0 0;
   border-style: solid;
@@ -1137,28 +1137,28 @@ body, input, button, textarea {
   margin-left: -10px;
   margin-right: -10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000372}}
 .block {
   margin-top: 20px;
   max-width: 600px;
   text-align: left; }
 
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000378}}
   .nav {
     text-align: right; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000384}}
 .nav .nav__block {
   margin-top: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000386}}
   .nav .nav__block li {
     margin-top: 0.4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000388}}
 .nav .nav__logo {
   margin-top: 20px;
   margin-right: -11px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000392}}
 .logo {
   background-color: yellow;
   border: 1px solid #333;
@@ -1168,67 +1168,67 @@ body, input, button, textarea {
   font-size: 1.17em;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003100}}
 .highlight {
   background-color: yellow;
   padding: 3px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003106}}
 .form .form__row {
   margin-top: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003108}}
 .input, .textarea, .editor {
   display: inline-block;
   width: 100%;
   padding: 0.5em;
   border: 1px solid #e3e3e3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003113}}
   .input:focus, .textarea:focus, .editor:focus {
     border-color: #e6e600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003116}}
   label > .input, label + .input, label > .textarea, label + .textarea, label > .editor, label + .editor {
     margin-top: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003119}}
 .editor {
   max-height: 250px;
   min-height: 150px;
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003123}}
 .btn {
   padding: 0.75em 1em;
   background-color: transparent;
   border: 1px solid #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003127}}
   .btn.btn_primary {
     background-color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003130}}
 .list {
   width: 100%;
   display: inline-block;
   padding-top: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003134}}
 .list-item {
   width: 100%;
   display: inline-block;
   margin-top: -1px;
   border: 1px solid #e3e3e3;
   padding: 0.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003140}}
   .list-item:hover {
     background-color: #f1f1f1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003143}}
 .select {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003146}}
   .select .select__input:focus + .select__list {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexeybondarenko\/Sites\/poesia-ukr\/src\/sass\/app\.sass}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003148}}
   .select .select__list {
     display: none;
     position: absolute;
