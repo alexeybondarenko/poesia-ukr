@@ -57,7 +57,7 @@ app.locals.ogTitle = app.locals.title ;
 app.locals.ogLocale = 'uk_UA';
 app.locals.ogSitename = app.locals.title;
 app.locals.ogDescription = "Ми мотивуємо віршами.";
-app.locals.ogImage = "/images/fb-image.png";
+app.locals.ogImage = "http://uapoetry.com.ua/images/fb-image.png";
 app.locals.fbAppId = secrets.fb.appId;
 
 app.use(function (req, res, next) {

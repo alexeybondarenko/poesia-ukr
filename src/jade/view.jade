@@ -6,6 +6,8 @@ block content
       h2=poem.name
       h5=poem.author.name
       | !{poem.content}
+    div
+      .fb-like(data-share="true", data-width="450", data-show-faces="false")
     p
       a.highlight(href="/random") Наступний вірш
         span.arrow →
