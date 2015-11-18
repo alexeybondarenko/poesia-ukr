@@ -74,7 +74,8 @@ body, input, button, textarea
   margin-top: 20px
   max-width: 600px
   text-align: left
-
+  .block__social
+    margin-top: 1em
 .nav
   //margin-top: 100px
   //text-align: center
@@ -156,4 +157,18 @@ body, input, button, textarea
     box-shadow: 0 1px 0 $light-grey
     //box-shadow: inset 0 -3px 3px rgba(black, .3)
 
+.icon
+  display: inline-block
+.icon-share-fb
+  +svg(share-fb, 31, 29)
+.icon-share-vk
+  +svg(share-vk, 31, 29)
+.icon-share-twitter
+  +svg(share-twitter, 31, 29)
 
+.share-buttons
+
+  a
+    display: inline-block
+  a + a
+    margin-left: 1em

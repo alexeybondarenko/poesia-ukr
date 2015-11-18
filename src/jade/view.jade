@@ -6,8 +6,13 @@ block content
       h2=poem.name
       h5=poem.author.name
       | !{poem.content}
-    div
-      .fb-like(data-share="true", data-width="450", data-show-faces="false")
+    div.block__social.share-buttons
+      a(href="http://www.facebook.com/share.php", target="_blank", title="Поділитися посиланням")
+        i.icon.icon-share-fb
+      a(href="http://vkontakte.ru/share.php", target="_blank", title="Поділитися посиланням")
+        i.icon.icon-share-vk
+      a(href="http://twitter.com/share", , target="_blank", title="Поділитися посиланням")
+        i.icon.icon-share-twitter
     p
       a.highlight(href="/random") Наступний вірш
         span.arrow →
