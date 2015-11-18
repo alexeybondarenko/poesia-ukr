@@ -52,12 +52,12 @@ app.set('view engine', 'jade');
 app.locals.title = "Поезія Укрїни";
 
 app.locals.ogUrl = new Date();
-app.locals.ogType = null;
-app.locals.ogTitle = null;
+app.locals.ogType = "website";
+app.locals.ogTitle = app.locals.title ;
 app.locals.ogLocale = 'uk_UA';
 app.locals.ogSitename = app.locals.title;
-app.locals.ogDescription = null;
-app.locals.ogImage = null;
+app.locals.ogDescription = "Ми мотивуємо віршами.";
+app.locals.ogImage = "/images/fb-image.png";
 app.locals.fbAppId = secrets.fb.appId;
 
 app.use(function (req, res, next) {
