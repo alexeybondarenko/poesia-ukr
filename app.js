@@ -49,7 +49,7 @@ app.set('view engine', 'jade');
  * App Locals
  * Default values for template variables
  */
-app.locals.title = "Поезія Укрїни";
+app.locals.title = "Поезія України";
 
 app.locals.ogUrl = new Date();
 app.locals.ogType = "website";
@@ -72,6 +72,7 @@ app.use(function (req, res, next) {
 app.get('/', function (req, res) {
   res.render('index')
 });
+
 //
 //app.get('/add', function (req, res) {
 //  res.render('add', {
@@ -116,6 +117,25 @@ app.get('/api/poems/:id', poemController.api.getPoemById);
  * Error Handler.
  */
 app.use(errorHandler());
+
+app.use(function(req, res, next){
+  res.status(404);
+
+  // respond with html page
+  if (req.accepts('html')) {
+    res.render('error', { errorMsg: "404. Сторінка не знайдена"});
+    return;
+  }
+
+  // respond with json
+  if (req.accepts('json')) {
+    res.send({ error: 'Not found' });
+    return;
+  }
+
+  // default to plain-text. send()
+  res.type('txt').send('Not found');
+});
 
 /**
  * Start Express server.
