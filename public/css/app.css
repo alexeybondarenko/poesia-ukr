@@ -1080,56 +1080,59 @@ html, body {
   height: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000316}}
+.link.link_underline {
+  border-bottom: 1px solid #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000318}}
 .link:hover {
   border-bottom: 1px solid #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000326}}
 .full-height {
   height: 100%; }
 
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000328}}
   .full-height-desktop {
     height: 100%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000331}}
 [class*="col-"] {
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000334}}
 body, input, button, textarea {
   font: 200 100%/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000341}}
 .border-between > [class*='col-']:nth-child(2n) {
   border-color: #e3e3e3;
   border-style: solid;
   border-width: 1px 0 0 0; }
   @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000341}}
     .border-between > [class*='col-']:nth-child(2n) {
       border-width: 0 0 0 1px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000350}}
 .icon {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000354}}
 .index .index__block, .index .index__content {
   padding-bottom: 20px; }
   @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000354}}
     .index .index__block, .index .index__content {
       position: relative;
-      top: 25%; } }
+      top: 10%; } }
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000360}}
   .index .index__content {
     margin-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000364}}
     .index .index__content > hr {
       margin-left: -2em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000367}}
 .index hr {
   border-width: 1px 0 0 0;
   border-style: solid;
@@ -1137,31 +1140,31 @@ body, input, button, textarea {
   margin-left: -10px;
   margin-right: -10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000375}}
 .block {
   margin-top: 20px;
   max-width: 600px;
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000380}}
   .block .block__social {
     margin-top: 1em; }
 
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000382}}
   .nav {
     text-align: right; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000388}}
 .nav .nav__block {
   margin-top: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000390}}
   .nav .nav__block li {
     margin-top: 0.4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000392}}
 .nav .nav__logo {
   margin-top: 20px;
   margin-right: -11px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\0000396}}
 .logo {
   background-color: yellow;
   border: 1px solid #333;
@@ -1171,67 +1174,67 @@ body, input, button, textarea {
   font-size: 1.17em;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003104}}
 .highlight {
   background-color: yellow;
   padding: 3px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003110}}
 .form .form__row {
   margin-top: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003112}}
 .input, .textarea, .editor {
   display: inline-block;
   width: 100%;
   padding: 0.5em;
   border: 1px solid #e3e3e3; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003117}}
   .input:focus, .textarea:focus, .editor:focus {
     border-color: #e6e600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003120}}
   label > .input, label + .input, label > .textarea, label + .textarea, label > .editor, label + .editor {
     margin-top: 0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003123}}
 .editor {
   max-height: 250px;
   min-height: 150px;
   overflow: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003127}}
 .btn {
   padding: 0.75em 1em;
   background-color: transparent;
   border: 1px solid #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003131}}
   .btn.btn_primary {
     background-color: yellow; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003134}}
 .list {
   width: 100%;
   display: inline-block;
   padding-top: 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003138}}
 .list-item {
   width: 100%;
   display: inline-block;
   margin-top: -1px;
   border: 1px solid #e3e3e3;
   padding: 0.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003144}}
   .list-item:hover {
     background-color: #f1f1f1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003147}}
 .select {
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003150}}
   .select .select__input:focus + .select__list {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003152}}
   .select .select__list {
     display: none;
     position: absolute;
@@ -1242,11 +1245,11 @@ body, input, button, textarea {
     overflow: auto;
     box-shadow: 0 1px 0 #e3e3e3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003163}}
 .icon {
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003165}}
 .icon-share-fb {
   background: url("../images/svg/share-fb.svg") no-repeat 0 0;
   background-size: 31px 29px 100%;
@@ -1254,7 +1257,7 @@ body, input, button, textarea {
   height: 29px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003167}}
 .icon-share-vk {
   background: url("../images/svg/share-vk.svg") no-repeat 0 0;
   background-size: 31px 29px 100%;
@@ -1262,7 +1265,7 @@ body, input, button, textarea {
   height: 29px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003169}}
 .icon-share-twitter {
   background: url("../images/svg/share-twitter.svg") no-repeat 0 0;
   background-size: 31px 29px 100%;
@@ -1270,9 +1273,9 @@ body, input, button, textarea {
   height: 29px;
   display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003174}}
 .share-buttons a {
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Sites\/uapoetry\/src\/sass\/app\.sass}line{font-family:\00003176}}
 .share-buttons a + a {
   margin-left: 1em; }
