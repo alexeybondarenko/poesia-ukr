@@ -97,7 +97,7 @@ window.app = app;
     $('.js-share-fb').on('click', function (e) {
       e.preventDefault();
       e.stopPropagation();
-      window.open('http://www.facebook.com/share.php?u=' + location.origin, '_blank');
+      window.open('http://www.facebook.com/share.php?p[url]=' + location.origin + '&p[title]=' + document.title, '_blank');
     });
     /**
      * Share to Vkontakte
