@@ -5,7 +5,7 @@ div.block
     div.poem__content
       | !{poem.content}
   div.block__social.share-buttons
-    a.js-share-fb(href="http://www.facebook.com/share.php?u=#{ogUrl}", target="_blank", title="Поділитися посиланням")
+    a.js-share-fb(href="http://www.facebook.com/share.php?p[url]=#{ogUrl}&p[title]=#{ogTitle}", target="_blank", title="Поділитися посиланням")
       i.icon.icon-share-fb
     a.js-share-vk(href="http://vkontakte.ru/share.php?url=#{ogUrl}&title=#{ogTitle}", target="_blank", title="Поділитися посиланням")
       i.icon.icon-share-vk
