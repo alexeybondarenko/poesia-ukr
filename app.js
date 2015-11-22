@@ -70,7 +70,7 @@ app.use(function (req, res, next) {
  */
 
 app.get('/', function (req, res) {
-  res.render('index')
+  res.render('index');
 });
 
 //
@@ -97,7 +97,7 @@ app.get('/api/authors', function (req, res) {
       return {
         id: item.id,
         name: item.name
-      }
+      };
     }));
   });
 });
@@ -105,13 +105,14 @@ app.get('/api/authors', function (req, res) {
 var poemController = require ('./server/controllers/poem-controller');
 
 app.get('/random', poemController.getRandomPoem);
+app.get('/random/view', poemController.getRandomPoemView);
 
 app.get('/poem', poemController.getPoems);
 app.get('/poem/:id', poemController.getPoemById);
 
 app.get('/api/poems', poemController.api.getPoems);
+app.get('/api/poems/random', poemController.api.getPoemRandom);
 app.get('/api/poems/:id', poemController.api.getPoemById);
-
 
 /**
  * Error Handler.

@@ -13,13 +13,13 @@ poemController.getPoems = function (req, res) {
     res.render('list', {
       title: 'Пошук',
       poems: resp
-    })
+    });
   }, function () {
     res.render('error', {
       title: 'Помилка',
       errorMsg: 'Ми не знайшли вірш. Спробуйте ще раз'
-    })
-  })
+    });
+  });
 };
 
 function renderPoemView (res, poem) {
@@ -29,7 +29,7 @@ function renderPoemView (res, poem) {
     ogTitle: poem.author.name +' - '+ poem.name,
     ogType: 'article',
     ogDescription: striptags(poem.content || '').substr(0, 255)
-  })
+  });
 }
 
 poemController.getPoemById = function (req, res) {
@@ -39,8 +39,8 @@ poemController.getPoemById = function (req, res) {
     res.render('error', {
       title: 'Помилка',
       errorMsg: 'Ми не знайшли вірш. Спробуйте ще раз'
-    })
-  })
+    });
+  });
 };
 
 
@@ -51,9 +51,23 @@ poemController.getRandomPoem = function (req, res) {
     res.render('error', {
       title: 'Помилка',
       errorMsg: 'Нам не вдалося знайти випадковий вірш. Бо всі вірші тут невипадково. :) Напишть нам. ' + secrets.support.email
-    })
-  })
+    });
+  });
 };
+
+poemController.getRandomPoemView = function (req, res) {
+  poemCollection.findRandom().then(function (poem) {
+    res.render('blocks/view', {
+      poem: poem
+    });
+  }, function () {
+    res.render('error', {
+      title: 'Помилка',
+      errorMsg: 'Нам не вдалося знайти випадковий вірш. Бо всі вірші тут невипадково. :) Напишть нам. ' + secrets.support.email
+    });
+  });
+};
+
 
 poemController.api = {};
 poemController.api.getPoems = function (req, res) {
@@ -68,7 +82,14 @@ poemController.api.getPoemById = function (req, res) {
     return Boom.notFound('poem with id not found');
   }).then(function (resp) {
     res.json(resp);
-  })
+  });
+};
+poemController.api.getPoemRandom = function (req, res) {
+  return poemCollection.findRandom().catch(function (poem) {
+    return Boom.notFound('random poem not found');
+  }).then(function (resp) {
+    res.json(resp);
+  });
 };
 
 module.exports = poemController;

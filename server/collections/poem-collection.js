@@ -38,7 +38,7 @@ poemCollection.findByName = function (name) {
 poemCollection.findRandom = function () {
   return poemModel.count().exec().then(function (count) {
     var rand = Math.floor(Math.random() * count);
-    return poemModel.findOne().skip(rand).exec();
+    return poemModel.findOne().populate('author').skip(rand).exec();
   }).then(function (poem) {
     return this.poemToJson (poem);
   }.bind(this));
