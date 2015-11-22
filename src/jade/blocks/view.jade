@@ -1,0 +1,16 @@
+div.block
+  #mainPoem.poem.typography
+    h2.poem__name=poem.name
+    h5.poem__author=poem.author.name
+    div.poem__content
+      | !{poem.content}
+  div.block__social.share-buttons
+    a.js-share-fb(href="http://www.facebook.com/share.php?u=#{ogUrl}", target="_blank", title="Поділитися посиланням")
+      i.icon.icon-share-fb
+    a.js-share-vk(href="http://vkontakte.ru/share.php?url=#{ogUrl}&title=#{ogTitle}", target="_blank", title="Поділитися посиланням")
+      i.icon.icon-share-vk
+    a.js-share-twitter(href="http://twitter.com/share?text=#{ogTitle}&url=#{ogUrl}", , target="_blank", title="Поділитися посиланням")
+      i.icon.icon-share-twitter
+  p
+    a.js-next-random-poem.highlight(href="/random", title="Alt+right") Наступний вірш
+      span.arrow →

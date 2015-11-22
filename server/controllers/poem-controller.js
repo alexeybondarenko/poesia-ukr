@@ -55,6 +55,20 @@ poemController.getRandomPoem = function (req, res) {
   });
 };
 
+poemController.getRandomPoemView = function (req, res) {
+  poemCollection.findRandom().then(function (poem) {
+    res.render('blocks/view', {
+      poem: poem
+    });
+  }, function () {
+    res.render('error', {
+      title: 'Помилка',
+      errorMsg: 'Нам не вдалося знайти випадковий вірш. Бо всі вірші тут невипадково. :) Напишть нам. ' + secrets.support.email
+    });
+  });
+};
+
+
 poemController.api = {};
 poemController.api.getPoems = function (req, res) {
   return poemCollection.findByName(req.query.name).catch(function () {
