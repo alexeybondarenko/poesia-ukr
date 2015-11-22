@@ -110,6 +110,7 @@ app.get('/poem', poemController.getPoems);
 app.get('/poem/:id', poemController.getPoemById);
 
 app.get('/api/poems', poemController.api.getPoems);
+app.get('/api/poems/random', poemController.api.getPoemRandom);
 app.get('/api/poems/:id', poemController.api.getPoemById);
 
 
