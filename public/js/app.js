@@ -39,31 +39,42 @@ window.app = app;
 
   w.app.api = API;
 })(window);
+
+
+/**
+ * jQuery History API
+ */
+(function () {
+  window.onpopstate = function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    //$(document).trigger('popstate', e.state || {});
+  };
+})();
+
 /**
  * Change poem without reloading page
  */
 (function () {
   $(document).ready(function () {
-
+    console.log('document.ready');
     var $mainPoemEl = $('#mainPoem');
 
     function changePoem(poemObj) {
-      $mainPoemEl.find('.poem__content').html(poemObj.content);
-      $mainPoemEl.find('.poem__author').html(poemObj.author.name);
-      $mainPoemEl.find('.poem__name').html(poemObj.name);
       document.title = poemObj.name;
+      $mainPoemEl.children('.poem__content').html(poemObj.content);
+      $mainPoemEl.children('.poem__author').html(poemObj.author.name);
+      $mainPoemEl.children('.poem__name').html(poemObj.name);
     }
 
     window.app.showNext = function () {
       this.api.getRandomPoem().then(function (resp) {
         changePoem(resp);
-        window.history.pushState({"type": "poem", "value": resp}, resp.name, '/poem/' + resp.id);
+        window.history.pushState({
+          "type": "poem",
+          "value": resp
+        }, resp.name, '/poem/' + resp.id);
       });
-    };
-    window.onpopstate = function (e) {
-      if (e.state.type == 'poem') {
-        changePoem(e.state.value);
-      }
     };
     $('.js-next-random-poem').on('click', function (e) {
       e.preventDefault();
@@ -74,6 +85,17 @@ window.app = app;
     $(document).bind('keydown', 'Alt+right', function () {
       window.app.showNext();
     });
+    $(document).bind('keydown', 'Alt+left', function () {
+      window.history.back();
+    });
+    $(window).bind('popstate', function (e) {
+
+      var state = (e.originalEvent || {}).state || {};
+      console.log('popstate', state);
+      if (state.type =='poem') {
+        changePoem(state.value);
+      }
+    })
   });
 })();
 /**
