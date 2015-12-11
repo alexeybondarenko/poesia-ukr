@@ -3,7 +3,8 @@ div.block
     h2.poem__name=poem.name
     h5.poem__author=poem.author.name
     div.poem__content
-      | !{poem.content}
+      each paragraph in poem.content
+        p!=paragraph
   div.block__social.share-buttons
     a.js-share-fb(href="http://www.facebook.com/share.php?p[url]=#{ogUrl}&p[title]=#{ogTitle}", target="_blank", title="Поділитися посиланням")
       i.icon.icon-share-fb

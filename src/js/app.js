@@ -33,9 +33,6 @@ window.app = app;
   API.getRandomPoem = function () {
     return $.getJSON('/api/poems/random');
   };
-  API.getRandomPoemView = function () {
-    return $.get('/random/view');
-  };
 
   w.app.api = API;
 })(window);
@@ -62,7 +59,11 @@ window.app = app;
 
     function changePoem(poemObj) {
       document.title = poemObj.name;
-      $mainPoemEl.children('.poem__content').html(poemObj.content);
+      var html = poemObj.content.map(function (paragraph) {
+        return '<p>' + paragraph.replace(RegExp("\n","g"),'<br>') + '</p>';
+      }).join('');
+
+      $mainPoemEl.children('.poem__content').html(html);
       $mainPoemEl.children('.poem__author').html(poemObj.author.name);
       $mainPoemEl.children('.poem__name').html(poemObj.name);
     }

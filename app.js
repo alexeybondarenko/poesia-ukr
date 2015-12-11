@@ -105,7 +105,6 @@ app.get('/api/authors', function (req, res) {
 var poemController = require ('./server/controllers/poem-controller');
 
 app.get('/random', poemController.getRandomPoem);
-app.get('/random/view', poemController.getRandomPoemView);
 
 app.get('/poem', poemController.getPoems);
 app.get('/poem/:id', poemController.getPoemById);

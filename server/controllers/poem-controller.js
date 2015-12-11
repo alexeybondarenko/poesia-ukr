@@ -23,6 +23,12 @@ poemController.getPoems = function (req, res) {
 };
 
 function renderPoemView (res, poem) {
+  var result = [];
+  poem.content.forEach(function (item) {
+    result.push(item.replace(/\n/g,'<br>'));
+  });
+  poem.content = result;
+
   res.render('view', {
     title: poem.name,
     poem: poem,
@@ -43,23 +49,9 @@ poemController.getPoemById = function (req, res) {
   });
 };
 
-
 poemController.getRandomPoem = function (req, res) {
   poemCollection.findRandom().then(function (poem) {
     res.redirect('poem/'+poem.id);
-  }, function () {
-    res.render('error', {
-      title: 'Помилка',
-      errorMsg: 'Нам не вдалося знайти випадковий вірш. Бо всі вірші тут невипадково. :) Напишть нам. ' + secrets.support.email
-    });
-  });
-};
-
-poemController.getRandomPoemView = function (req, res) {
-  poemCollection.findRandom().then(function (poem) {
-    res.render('blocks/view', {
-      poem: poem
-    });
   }, function () {
     res.render('error', {
       title: 'Помилка',
